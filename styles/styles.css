@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  margin: 20px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  min-width: 800px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: gray;
+  margin: 20px;
+}
+
+.first-clicked-box {
+  color: red;
+  font-size: 7em;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.second-clicked-box {
+  color: blue;
+  font-size: 7em;
+  text-align: center;
+  padding-top: 30px;
+}
